@@ -1,0 +1,32 @@
+@media only screen and (max-width: 938px) {
+	.wrap{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 860px) {
+	.header-nav-bar-menu ul{
+		display: none;
+	}
+	.header-nav-bar-dash{
+		width: auto;
+	}
+	.header-nav-bar-menu span{
+		display: block;
+		margin-left: 40%;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.header-top-search{
+		background: url('../img/assets/search.png');
+		background-size: 100% 100%;
+		height: 30px;
+		width: 30px;
+		margin-left: 5%;
+		margin-top: 2%;
+	}
+	.header-top-search form{
+		display: none;
+	}
+}
