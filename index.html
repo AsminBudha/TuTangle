@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<title>Tu Tangle</title>
 	<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
 	<link rel="stylesheet" type="text/css" href="css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="css/layout.css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media-query.css">
 </head>
 <body>
 	<div class="header-top clearfix">
@@ -40,8 +43,9 @@
 	</div>
 	<div class="header-nav-bar clearfix">
 		<div class="wrap">
-			<div class="header-nav-bar-menu">
-				<ul>
+			<div class="header-nav-bar-menu clearfix">
+				<span><img src="img/assets/hamburger.png"></span>
+				<ul class="">
 					<li class="active"><a href="#">Create New Entry</a></li>
 					<li><a href="#">My Topic Boxes</a></li>
 					<li><a href="#">Friends</a></li>
@@ -62,7 +66,7 @@
 	<div class="container clearfix">
 		<div class="wrap">
 			<div class="main-body clearfix">
-				<div class="col2-left-layout-left">
+				<div class="col2-left-layout-left col1">
 					<div class="box">
 						<div class="box-title">Recent Searches</div>
 						<div class="box-list clearfix">
@@ -215,8 +219,8 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col2-left-layout-right">
-						<div class="box col3">
+					<div class="col2-left-layout-right  col3">
+						<div class="box">
 							<div class="box-title">Video Tutorials</div>
 							<div class="box-list">
 								<ul>
